@@ -9,6 +9,9 @@ export const Wrapper = styled.footer`
   }
   box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%),
     0 0 2px rgb(0 0 0 / 7%);
+  hr {
+    margin: 2rem 0;
+  }
 `;
 
 export const Icons = styled.ul`
@@ -54,6 +57,41 @@ export const List = styled.ul`
   gap: 2rem;
   width: 200px;
   font-size: 1.2rem;
+  a {
+    color: ${({ theme }) => theme.fontColorSecondary};
+    transition: all 0.2s ease;
+    &:hover {
+      color: ${({ theme }) => theme.fontColorPrimary};
+    }
+  }
+`;
+
+export const Accordion = styled.div`
+  position: relative;
+  padding: 2rem 0;
+  font-size: 0.8rem;
+  @media (min-width: 1024px) {
+    display: none;
+  }
+`;
+export const AccordionContainer = styled.div`
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+`;
+export const Wrap = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  h2 {
+    padding: 2rem;
+  }
+`;
+export const DropdownItem = styled.ul`
   a {
     color: ${({ theme }) => theme.fontColorSecondary};
     transition: all 0.2s ease;

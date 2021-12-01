@@ -5,6 +5,10 @@ import { theme } from "./theme";
 
 import font from "./fonts/SoDoSans.ttf";
 import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero/Hero";
+import Steps from "./components/Steps/Steps";
+import Extras from "./components/Extras/Extras";
+import Stars from "./components/Stars/Stars";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -28,6 +32,10 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Header />
+      <Hero />
+      <Steps />
+      <Extras />
+      <Stars />
       <Footer />
     </ThemeProvider>
   );

@@ -7,12 +7,15 @@ import {
   BsYoutube,
   BsTwitter,
 } from "react-icons/bs";
+import Dropdown from "./Dropdown";
 import Navigations from "./Navigations";
 import { Icons, Navigation, Wrapper } from "./style";
 function Footer() {
   return (
     <Wrapper>
       <Navigations />
+      <Dropdown />
+      <hr />
       <Icons>
         <li>
           <BsSpotify />

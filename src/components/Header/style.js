@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.header`
-  position: fixed relative;
+  position: relative;
   width: 100%;
   font-size: 1.2rem;
   z-index: 10;
