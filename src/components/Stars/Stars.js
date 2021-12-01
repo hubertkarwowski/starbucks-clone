@@ -5,6 +5,7 @@ import img2 from "../../assets/1B.png";
 import img3 from "../../assets/2A.png";
 import img4 from "../../assets/2B.png";
 import img5 from "../../assets/3A.png";
+import img6 from "../../assets/transparent.png";
 import { Text, Wrap, Wrapper } from "./style";
 
 const Stars = () => {
@@ -49,6 +50,7 @@ const Stars = () => {
         credit card
         opens in new window in and outside of Starbucks. Earn 1 Star per $1 when you digitally preload your Starbucks Card with your Starbucks® Rewards Visa® Card, and earn 2 Stars per $1 when you pay with that preloaded Starbucks Card."
           img={img5}
+          img2={img6}
         />
       </Wrap>
     </Wrapper>

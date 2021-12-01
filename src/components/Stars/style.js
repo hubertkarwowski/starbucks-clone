@@ -39,8 +39,13 @@ export const ColumnImage = styled.div`
     height: 150px;
   }
 `;
-export const ColumnText = styled.div``;
+export const ColumnText = styled.div`
+  p {
+    margin-top: 1rem;
+  }
+`;
 export const RowWrapper = styled.div`
+  padding: 3rem 0;
   @media (min-width: 1024px) {
     display: flex;
   }

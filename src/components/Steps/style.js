@@ -26,11 +26,11 @@ export const Step = styled.div`
   div {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
   }
   @media (min-width: 768px) {
     flex-direction: column;
     text-align: center;
+    margin: auto;
     div {
       width: 70%;
       margin: 0 auto;

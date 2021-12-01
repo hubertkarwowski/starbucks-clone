@@ -9,6 +9,8 @@ import Hero from "./components/Hero/Hero";
 import Steps from "./components/Steps/Steps";
 import Extras from "./components/Extras/Extras";
 import Stars from "./components/Stars/Stars";
+import StarCodes from "./components/StarCodes/StarCodes";
+import Restrictions from "./components/Restrictions/Restrictions";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -36,6 +38,8 @@ function App() {
       <Steps />
       <Extras />
       <Stars />
+      <StarCodes />
+      <Restrictions />
       <Footer />
     </ThemeProvider>
   );
