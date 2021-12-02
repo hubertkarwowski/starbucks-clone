@@ -11,6 +11,7 @@ import Extras from "./components/Extras/Extras";
 import Stars from "./components/Stars/Stars";
 import StarCodes from "./components/StarCodes/StarCodes";
 import Restrictions from "./components/Restrictions/Restrictions";
+import Favorites from "./components/Favorites/Favorites";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -36,6 +37,7 @@ function App() {
       <Header />
       <Hero />
       <Steps />
+      <Favorites />
       <Extras />
       <Stars />
       <StarCodes />

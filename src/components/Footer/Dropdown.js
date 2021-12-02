@@ -19,9 +19,11 @@ const Dropdown = () => {
     <IconContext.Provider value={{ size: "25px" }}>
       <Accordion>
         <AccordionContainer>
-          <Wrap onClick={handleToggle}>
+          <Wrap>
             <h2>About Us</h2>
-            <span>{clicked ? <IoIosArrowUp /> : <IoIosArrowDown />}</span>
+            <span onClick={handleToggle}>
+              {clicked ? <IoIosArrowUp /> : <IoIosArrowDown />}
+            </span>
           </Wrap>
           {clicked ? (
             <Fragment>
